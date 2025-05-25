@@ -1,0 +1,13 @@
+temporal_steps: 100
+spatial_steps: 200
+
+temporal_classifier_layer: 1
+temporal_encoder_layer: 3
+temporal_mix_components: 8
+temporal_hidden_dims: 32
+temporal_kernel_size: 5
+temporal_time_segments: 24
+spatial_hidden_dims: 256
+
+num_condition_types: 6
+

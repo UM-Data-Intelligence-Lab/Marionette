@@ -1,0 +1,10 @@
+numpy==1.26.4
+pandas==2.2.2
+pytorch-lightning==1.9.5
+recbole==1.2.1
+hydra-core
+wandb
+torchtyping
+matplotlib
+einops
+rich

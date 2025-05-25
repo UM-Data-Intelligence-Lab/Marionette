@@ -1,0 +1,4 @@
+root: data/
+batch_size: 512
+name: Istanbul
+

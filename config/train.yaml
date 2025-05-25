@@ -1,0 +1,37 @@
+#./train.py --multirun hydra/launcher=slurm 
+
+defaults:
+  - data: data_set
+  - task: density 
+  - hydra: default
+  
+  # Allow the model to overwrite the settings below
+  - _self_
+  - model: Marionette
+
+trainer:
+  _target_: pytorch_lightning.Trainer
+  accelerator: gpu
+  devices: [0]
+  max_epochs: 1000
+  log_every_n_steps: 1
+  resume_from_checkpoint: ~
+  gradient_clip_val: ~
+  gradient_clip_algorithm: value
+
+seed: 135398
+eval_testset: no
+
+id: ~
+entity: ~
+project: Marionette
+group: ~
+mode: ~
+name: ~
+run_dir: ~
+
+early_stopping: ~
+
+hydra:
+  job:
+      name: ${project}
