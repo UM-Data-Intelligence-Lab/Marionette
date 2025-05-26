@@ -1,15 +1,23 @@
 # Marionette
 Marionette offers fine-grained controllable generative human trajectory data modeling with both global and partial mobility-related contexts. Please see the details in our paper below:  
 - Bangchao Deng, Ling Ding, Lianhua Ji, Chunhua Chen, Xin Jing, Bingqing Qu, Dingqi Yang*, Marionette: Fine-Grained Conditional Generative Modeling of Spatiotemporal Human Trajectory Data Beyond Imitation, In ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD'25), Aug. 2025, Toronto.
-### To create your environment:
-```
-conda create -n Marionette python=3.10 -y  
-conda activate Marionette  
-conda install pytorch==2.0.0 torchvision==0.15.1 torchaudio==2.0.0 pytorch-cuda=11.7 -c pytorch -c nvidia
-# Configuration needs to be adjusted according to the system version.  
-pip install -r requirements.txt
-```
 
+## Requirements
+```
+python: 3.10 
+torch: 2.0.0  
+recbole: 1.2.1 
+numpy: 1.26.4
+pandas: 2.2.2
+pytorch-lightning: 1.9.5
+hydra-core
+wandb
+torchtyping
+matplotlib
+einops
+rich
+GPU with CUDA 11.7
+```
 
 ### Training, Sampling and Evaluation
 You can set up parameters in the config folder.
