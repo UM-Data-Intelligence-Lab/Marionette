@@ -32,7 +32,7 @@ sh sample_evaluation.sh <your_wandb_runid>
 ```
 
 ## Note
-The implementation is based on [add-thin](https://github.com/davecasp/add-thin), [LayoutDiffusion](https://github.com/microsoft/LayoutGeneration/tree/main/LayoutDiffusion) and our Task-based Evaluation Protocol LocRec and NexLoc are based on [MIRAGE](https://github.com/UM-Data-Intelligence-Lab/MIRAGE).
+The implementation is based on [add-thin](https://github.com/davecasp/add-thin), [LayoutDiffusion](https://github.com/microsoft/LayoutGeneration/tree/main/LayoutDiffusion) and our Task-Based Utility Evaluation Protocol is based on [MIRAGE](https://github.com/UM-Data-Intelligence-Lab/MIRAGE).
 
 Note that one of our downstream tasks **LightGCN**, in the current RecBole library has deprecated dependencies. Please refer to https://github.com/RUCAIBox/RecBole/issues/2090 to fix the problem, or you can select other tasks as your downstream tasks.
 
