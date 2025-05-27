@@ -1,4 +1,4 @@
-<img width="1277" alt="image" src="https://github.com/user-attachments/assets/e694003c-c284-4ba3-bfe8-ddbdcfeda755" /># Marionette
+# Marionette
 Marionette offers fine-grained controllable generative human trajectory data modeling with both global and partial mobility-related contexts. Please see the details in our paper below:  
 - Bangchao Deng, Ling Ding, Lianhua Ji, Chunhua Chen, Xin Jing, Bingqing Qu, Dingqi Yang*, Marionette: Fine-Grained Conditional Generative Modeling of Spatiotemporal Human Trajectory Data Beyond Imitation, In ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD'25), Aug. 2025, Toronto.
 
