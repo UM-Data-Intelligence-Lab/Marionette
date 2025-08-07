@@ -31,6 +31,18 @@ For the sampling and evaluation, please run the script as follows:
 sh sample_evaluation.sh <your_wandb_runid>
 ```
 
+## Reference
+If you use our code, please cite:
+```
+@inproceedings{deng2025marionette,
+  title={Marionette: Fine-Grained Conditional Generative Modeling of Spatiotemporal Human Trajectory Data Beyond Imitation},
+  author={Deng, Bangchao and Ding, Ling and Ji, Lianhua and Chen, Chunhua and Jing, Xin and Qu, Bingqing and Yang, Dingqi},
+  booktitle={Proceedings of the 31st ACM SIGKDD Conference on Knowledge Discovery and Data Mining V. 2},
+  pages={463--473},
+  year={2025}
+}
+```
+
 ## Note
 The implementation is based on [add-thin](https://github.com/davecasp/add-thin), [LayoutDiffusion](https://github.com/microsoft/LayoutGeneration/tree/main/LayoutDiffusion) and our Task-Based Utility Evaluation Protocol is based on [MIRAGE](https://github.com/UM-Data-Intelligence-Lab/MIRAGE).
 
